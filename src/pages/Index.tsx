@@ -80,18 +80,10 @@ const Index = () => {
         </header>
 
         <main className="container mx-auto px-4 py-8">
-          <TabsContent value="assessment">
-            <CreditAssessment />
-          </TabsContent>
-          <TabsContent value="dashboard">
-            <ModelDashboard />
-          </TabsContent>
-          <TabsContent value="security">
-            <PrivacySecurity />
-          </TabsContent>
-          <TabsContent value="docs">
-            <Documentation />
-          </TabsContent>
+          {activeTab === "assessment" && <CreditAssessment />}
+          {activeTab === "dashboard" && <ModelDashboard />}
+          {activeTab === "security" && <PrivacySecurity />}
+          {activeTab === "docs" && <Documentation />}
         </main>
       </div>
     );
