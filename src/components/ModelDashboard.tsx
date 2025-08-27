@@ -43,7 +43,7 @@ const ModelDashboard = () => {
     <div className="space-y-6">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold mb-2">AI Model Performance Dashboard</h2>
-        <p className="text-muted-foreground">Real-time analytics for African credit scoring model</p>
+        <p className="text-muted-foreground">Real-time analytics for global credit scoring model</p>
       </div>
 
       {/* Key Metrics */}
@@ -261,7 +261,7 @@ const ModelDashboard = () => {
 
         <Card>
           <CardHeader>
-            <CardTitle className="text-lg">African Impact</CardTitle>
+            <CardTitle className="text-lg">Global Impact</CardTitle>
           </CardHeader>
           <CardContent className="space-y-2">
             <div className="flex justify-between">

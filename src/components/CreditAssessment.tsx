@@ -322,7 +322,7 @@ const CreditAssessment = () => {
           AI Credit Scoring Model Demo
         </CardTitle>
         <p className="text-sm text-muted-foreground mb-4">
-          Advanced ML ensemble model using alternative data sources for African markets
+          Advanced ML ensemble model using alternative data sources for emerging markets
         </p>
         <div className="flex flex-wrap gap-2 mb-4">
           <Button

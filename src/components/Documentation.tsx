@@ -72,15 +72,14 @@ const Documentation = () => {
 
   return (
     <div className="space-y-8 max-w-6xl mx-auto">
-      <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold mb-2 flex items-center justify-center gap-2">
-          <FileText className="w-8 h-8" />
-          Project Documentation
-        </h2>
-        <p className="text-muted-foreground max-w-3xl mx-auto">
-          Comprehensive technical documentation for the African Credit Scoring AI system using alternative data sources
-        </p>
-      </div>
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-primary-foreground bg-clip-text text-transparent">
+            Technical Documentation
+          </h1>
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+            Comprehensive technical documentation for the CreSo Credit Scoring AI system using alternative data sources
+          </p>
+        </div>
 
       {/* Problem Statement */}
       <Card>

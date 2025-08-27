@@ -55,7 +55,7 @@ const PrivacySecurity = () => {
     { name: "ISO 27001", description: "Information security management", status: "Certified" },
     { name: "SOC 2 Type II", description: "Security and availability controls", status: "Audited" },
     { name: "PCI DSS", description: "Payment card industry standards", status: "Level 1" },
-    { name: "African Union Data Protection", description: "Continental data governance", status: "Aligned" }
+    { name: "International Data Protection", description: "Global data governance", status: "Aligned" }
   ];
 
   const privacyPrinciples = [
@@ -89,7 +89,7 @@ const PrivacySecurity = () => {
           Privacy & Cybersecurity
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          Protecting African users' financial data with state-of-the-art security measures and privacy-preserving technologies
+          Protecting global users' financial data with state-of-the-art security measures and privacy-preserving technologies
         </p>
       </div>
 
@@ -211,31 +211,30 @@ const PrivacySecurity = () => {
         </div>
       </div>
 
-      {/* African Context */}
-      <Card className="border-accent-orange/30 bg-accent-orange/5">
+      {/* Global Context */}
+      <Card>
         <CardHeader>
-          <CardTitle className="text-xl">African Data Sovereignty</CardTitle>
+          <CardTitle className="text-xl">Global Data Sovereignty</CardTitle>
         </CardHeader>
-        <CardContent className="space-y-4">
-          <p className="text-sm">
-            Our approach respects African data sovereignty and promotes financial inclusion while maintaining the highest privacy standards:
+        <CardContent>
+          <p className="text-muted-foreground mb-4">
+            Our approach respects global data sovereignty and promotes financial inclusion while maintaining the highest privacy standards:
           </p>
-          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <h4 className="font-medium mb-2">Local Data Residency</h4>
-              <ul className="space-y-1 text-sm text-muted-foreground">
-                <li>• Data centers in Nigeria, Kenya, and South Africa</li>
-                <li>• Compliance with local data protection laws</li>
-                <li>• Support for cross-border financial inclusion</li>
+              <h4 className="font-semibold mb-2">Global Infrastructure</h4>
+              <ul className="text-sm space-y-1 text-muted-foreground">
+                <li>• Data centers in multiple regions worldwide</li>
+                <li>• Edge computing for reduced latency</li>
+                <li>• Local regulatory compliance</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-medium mb-2">Community Benefits</h4>
-              <ul className="space-y-1 text-sm text-muted-foreground">
-                <li>• Enabling credit access for 600M+ unbanked Africans</li>
-                <li>• Supporting micro and small enterprises</li>
-                <li>• Promoting digital financial literacy</li>
+              <h4 className="font-semibold mb-2">Community Impact</h4>
+              <ul className="text-sm space-y-1 text-muted-foreground">
+                <li>• Supporting global FinTech development</li>
+                <li>• Creating jobs in tech and finance sectors</li>
+                <li>• Enabling credit access for 1.7B+ unbanked individuals</li>
               </ul>
             </div>
           </div>
